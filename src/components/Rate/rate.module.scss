@@ -1,0 +1,35 @@
+.blue{
+background-color:rgb(109, 191, 233);
+text-align: center;
+border: 1px solid white;
+color: white;
+}
+.red{
+    background-color: rgb(241, 116, 116);
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+.black{
+    background-color: rgb(46, 44, 44);
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+.turquoise{
+    background-color: rgb(84, 210, 178);
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+.price{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    border-top: solid 1px white;
+}
+.bottom_alignment{
+    align-self: end;
+}
+
+
