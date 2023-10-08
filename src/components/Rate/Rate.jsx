@@ -1,9 +1,13 @@
 
 import style from './rate.module.scss'
-export default function Rate({name, price, speed, description,color}) {
+export default function Rate({name, price, speed, description,color,id,activeCard,setId}) {
+const clActive = activeCard ? 'active' : null
 
+function handleChange() {
+  setId(id)
+}
   return (
-    <div>
+    <div className = {`${clActive}`} onClick={handleChange}>
       <div className={style[color]}> 
         <h4>{name}</h4>
         <div className={style.price}>
